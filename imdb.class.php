@@ -21,7 +21,7 @@ class IMDB
     /**
      * Set this to true if you run into problems.
      */
-    const IMDB_DEBUG = true;
+    const IMDB_DEBUG = false;
 
     /**
      * Set the preferred language for the User Agent.
