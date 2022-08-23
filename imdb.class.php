@@ -36,7 +36,7 @@ class IMDB
     /**
      * These are the regular expressions used to extract the data.
      * If you don’t know what you’re doing, you shouldn’t touch them.
-     
+    */ 
     const IMDB_AKA           = '~<td[^>]*>\s*Also\s*Known\s*As\s*</td>\s*<td>(.+)</td>~Uis';
     const IMDB_ASPECT_RATIO  = '~<td[^>]*>Aspect\s*Ratio</td>\s*<td>(.+)</td>~Uis';
     const IMDB_AWARDS        = '~<div\s*class="titlereference-overview-section">\s*Awards:(.+)</div>~Uis';
@@ -80,7 +80,7 @@ class IMDB
     const IMDB_WRITER        = '~<div[^>]*>\s*(?:Writer|Writers)\s*:\s*<ul[^>]*>(.+)</ul>~Ui';
     const IMDB_YEAR          = '~og:title\' content="(?:.*)\((?:.*)(\d{4})(?:.*)\)~Ui';
 
-    
+    /**
      * @var string The string returned, if nothing is found.
      */
     public static $sNotFound = 'n/A';
